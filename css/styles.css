@@ -1,0 +1,153 @@
+.products {
+	font-family: "Montserrat", sans-serif;
+	font-family: "Seymour One", sans-serif;
+}
+
+.container {
+	padding: 60px 20px 60px 20px;
+	/* display: flex; */
+	text-align: center;
+}
+
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+ul,
+h1,
+h2,
+h3,
+h4,
+p,
+label,
+input {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style: none;
+}
+
+.products {
+	background-image: url(../images/Backgroud_mobile.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* .products-container {
+} */
+
+.products-composition {
+	margin-bottom: 12px;
+}
+
+.products-headline {
+	margin-bottom: 40px;
+}
+
+.products-list {
+	position: relative;
+}
+.products-picture {
+	/* position: absolute; */
+
+	background: #aec6a5;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* margin: 0 auto; */
+	background-size: cover;
+	background-image: linear-gradient(
+			0deg,
+			rgba(156, 190, 143, 0.7),
+			rgba(156, 190, 143, 0.7)
+		),
+		#d9d9d9;
+	box-shadow: 0px 5.34219px 20.0332px rgba(10, 136, 23, 0.25);
+
+	box-shadow: 0px 5.34219px 20.0332px rgba(10, 136, 23, 0.25),
+		url(../images/круг_картинка.png);
+	border-radius: 100px;
+	left: 0px;
+	top: 11px;
+}
+.products-picture::after {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url(../images/ice_cream.jpg);
+	box-shadow: 0px 5.34219px 20.0332px rgba(10, 136, 23, 0.25);
+	border-radius: 100px;
+
+	/* top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); */
+}
+
+.products-item {
+	margin-bottom: 60px;
+}
+
+.products-wrap {
+	position: relative;
+	border-radius: 24px;
+	background-color: #aec6a5;
+	padding: 123px 40px 16px 40px;
+}
+
+.products-wrap__orange {
+	background-color: #efd478;
+}
+
+.products-wrap__red {
+	background-color: #d6936d;
+}
+.products-subtitle {
+	margin-bottom: 40px;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 20px;
+	line-height: calc(24 / 20);
+	text-align: center;
+	letter-spacing: 0.04em;
+}
+
+.products-desc {
+	margin-bottom: 101px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: calc(25 / 14);
+
+	text-align: center;
+	letter-spacing: 0.04em;
+
+	color: #131313;
+}
+
+.products__btn {
+	background-color: #aec6a5;
+	border: none;
+}
